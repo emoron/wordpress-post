@@ -32,5 +32,4 @@ Otra regla de inferencia util es la **Eliminación-$$\wedge$$** que expresa que, 
 $$\frac{\alpha \vee \beta}{\alpha}$$
 
 Por ejemplo, de $$(WumpusEnFrente \vee WumpusVivo)$$, se puede inferir $$WumpusVivo$$. Teniendo en cuenta los posibles valores de verdad de $$\alpha$$
-
-
+y $$\beta$$ se pueden observar fácilmente, de una sóla vez, que el Modus Ponens y la Eliminación-$$\wedge$$ son reglas sólidas.
