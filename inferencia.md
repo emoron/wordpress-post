@@ -27,5 +27,10 @@ Existen las llamadas **reglas de inferencia**, la más conocida es la llamada **M
 
 $$\frac{\alpha \Rightarrow \beta,    \alpha }{\beta}$$   
 La notación nos dice que, cada vez que encontramos dos sentencias en la forma $$\alpha \Rightarrow \beta$$ y $$\alpha$$, entonces la sentencia $$\beta$$ puede ser inferida. Por ejemplo, si tenemos $$(WumpusEnFrente \wedge WumpusVivo)$$, entonces se puede inferir $$Disparar$$.
+Otra regla de inferencia util es la **Eliminación-$$\wedge$$** que expresa que, de una conjunción se puede inferir cualquiera de sus conjuntores:   
+
+$$\frac{\alpha \vee \beta}{\alpha}$$
+
+Por ejemplo, de $$(WumpusEnFrente \vee WumpusVivo)$$, se puede inferir $$WumpusVivo$$. Teniendo en cuenta los posibles valores de verdad de $$\alpha$$
 
 
