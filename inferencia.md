@@ -13,3 +13,9 @@ La **equivalencia lógica** presenta dos sentencias $$\alpha$$ y $$\beta$$ son eq
 Una definición alternativa de equivalencia lógica es la siguiente: para dos sentencias $$\alpha$$ y $$\beta$$ cualesquiera,   
 $$\alpha \equiv \beta $$ si y solo si $$\alpha \models  \beta$$ y $$\beta \models \alpha$$. (Recuerde que $$ \models $$ significa implicación).
 
+El segundo concepto que requerimos es el de **validez**. Una sentencia es válida si es verdadera en todos los modelos. Por ejemplo, la sentencia $$P \wedge \neg P$$ es una sentencia válida. Las sentencias válidas se conocen como **tautologías** son necesariamente verdaderas y por lo tanto vacias de significado.
+¿Que utilidad tienen las sentencias válidad? De nuestra definición podemos derivar el **teorema de la deducción** de la siguiente manera:   
+
+_Para cualquier sentencia_ $$\alpha$$ y $$\beta$$, $$\alpha \equiv \beta$$, _si y solo si la sentencia__ $$(\alpha \Rightarrow \beta)$$ __es válida_   
+
+El último concepto que requerimos es el de **satisfactibilidad**. Una sentencia es satisfactoria si es verdadera para _algún_ modelo. Por ejemplo, en la base de conocimiento ya mostrada, $$R_1 \wedge R_2 \wedge R_3 \wedge R_4 \wedge R_5 $$ es _satisfacible_ por que hay tres modelos en los que es verdadera. Si una sentencia $$\alpha$$ es verdadera en un modelo _m_ , entonces decimos que _m_ **satisface** $$\alpha$$, o que _m_ **es un modelo de** $$\alpha$$. 
