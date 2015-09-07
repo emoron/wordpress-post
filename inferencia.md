@@ -19,3 +19,8 @@ El segundo concepto que requerimos es el de **validez**. Una sentencia es válida
 _Para cualquier sentencia_ $$\alpha$$ y $$\beta$$, $$\alpha \equiv \beta$$, _si y solo si la sentencia__ $$(\alpha \Rightarrow \beta)$$ __es válida_   
 
 El último concepto que requerimos es el de **satisfactibilidad**. Una sentencia es satisfactoria si es verdadera para _algún_ modelo. Por ejemplo, en la base de conocimiento ya mostrada, $$R_1 \wedge R_2 \wedge R_3 \wedge R_4 \wedge R_5 $$ es _satisfacible_ por que hay tres modelos en los que es verdadera. Si una sentencia $$\alpha$$ es verdadera en un modelo _m_ , entonces decimos que _m_ **satisface** $$\alpha$$, o que _m_ **es un modelo de** $$\alpha$$. 
+
+Las _satisfactibilidad_ se puede averiguar enumerando los modelos posibles hasta que uno satisface la sentencia. La determinación de la _satisfactibilidad_ de sentencias en lógica proposicional fue el primer problema que se demostró que era NP-completo.
+
+## Patrones de razonamiento en lógica proposicional
+
