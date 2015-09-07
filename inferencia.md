@@ -23,4 +23,9 @@ El último concepto que requerimos es el de **satisfactibilidad**. Una sentencia 
 Las _satisfactibilidad_ se puede averiguar enumerando los modelos posibles hasta que uno satisface la sentencia. La determinación de la _satisfactibilidad_ de sentencias en lógica proposicional fue el primer problema que se demostró que era NP-completo.
 
 ## Patrones de razonamiento en lógica proposicional
+Existen las llamadas **reglas de inferencia**, la más conocida es la llamada **Modus Ponens** que se escribe como sigue:   
+
+$$\frac{\alpha \Rightarrow \beta,    \alpha }{\beta}$$   
+La notación nos dice que, cada vez que encontramos dos sentencias en la forma $$\alpha \Rightarrow \beta$$ y $$\alpha$$, entonces la sentencia $$\beta$$ puede ser inferida. Por ejemplo, si tenemos $$(WumpusEnFrente \wedge WumpusVivo)$$, entonces se puede inferir $$Disparar$$.
+
 
