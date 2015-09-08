@@ -1,8 +1,24 @@
+# Agentes Lógicos
+El componente principal de un agente basado en conocimiento es su base de conocimiento. Usualmente una BC es un conjunto de sentencias, similares a las sentencias en inglés, u otros lenguajes naturales. Cada sentencia se presenta en un lenguaje denominado, lenguaje de representación de conocimiento. Y se representa alguna aserción acerca del mundo, debe haber un mecanismo para añadir nuevas sentencias a la base de conocimiento, y uno para preguntar qué se sabe en la base de conocimiento. Los nombres estándar para estas dos tareas son Decir y Preguntar, respectivamente. Ambas tareas requieren realizar inferencia, es decir, derivar nuevas sentencias a partir de las antiguas.
+Lógica
+Conceptos Fundamentales
+Una lógica nos permite definir la semántica del lenguaje. Si lo relacionamos con el lenguaje hablado, la semántica trata "el significado" de las sentencias. En lógica, esta definición bastante más precisa
+Lógica Proposicional
+La sintaxis de la lógica proposicional nos define las sentencias que se pueden construir. Las sentencias atómicas (es decir, los elementos sintácticos indivisibles) se componen de un único símbolo proposicional. Cada uno de estos símbolos representa una proposición que puede ser verdadera o falsa. Utilizaremos letras mayúsculas para estos símbolos: P, Q, R y siguientes. Los nombres de los símbolos suelen ser arbitrarios pero a menudo se escogen de manera que tengan algún sentido mnemotécnico para el lector.
+
+Las sentencias complejas se construyen a partir de sentencias más simples mediante el uso de la conectivas lógicas, que son las siguientes:
+$\neg$  (no). Una sentencia como W1,3 se denomina negación de $$W_{1,3}$$. Un Literal puede ser una sentencia atómica ( un literal positivo )  o una sentencia atómica negada (un literal negativo).   
+$$\wedge$$ (y) Una sentencia que tenga como conectiva principal , como es (W1,3 H3,1), se denomina conjunción. sus componentes son los conjuntores. 
+
+$$\vee$$ (o). Una sentencia que utiliza la conectiva , como es $$(W_{1,3} H_{3,1})W_{2,2}$$, es una disyunción de los disyuntores $$(W_{1,3}H_{3,1})$$ y $$W_{2,2}$$.  
+$$\Rightarrow$$ (implica). Una sentencia como $$(W_{1,3}H_{3,1})W_{2,2} $$ se denomina implicación (o condicional). Su premisa es $$W_{1,3}H_{3,1}$$ y su conclusión o consecuente es $$W_{2,2}$$. Las implicaciones se conocen como reglas o afirmaciones si-entonces. Algunas veces, en otros libros el símbolo de la implicación se representa mediante $$\cup$$ o $$\cap$$ .
+
+
 # Inferencia
 Recordemos que el objetivo de la inferencia es decidir si $$BC |= \alpha$$ para alguna $$\alpha$$. Por ejemplo se deduce $$H_{2,2}$$. Nuestro primer algoritmo será una implementación directa del concenpo de implicación: enumerar los modelos y averiguar si $$\alpha$$ es verdadera en cada modelo en el que la **BC** es verdadera.   
 
 **función** ¿IMPLICACIONES-EN-TV?(BC,$$\alpha$$) **devuelve** verdadero o falso   
-**entradas:** BC, la base de conocimiento, una sentencia en lC3gica propocisional
+**entradas:** BC, la base de conocimiento, una sentencia en lógica propocisional
 $$\alpha$$, la sentencia implicada, una sentencia en lógica propocisional    
 
 _simbolos_  $$\leftarrow$$ una lista de símbolos propocisionales de la BC y $$\alpha$$   
@@ -21,6 +37,7 @@ _Para cualquier sentencia_ $$\alpha$$ y $$\beta$$, $$\alpha \equiv \beta$$, _si 
 El último concepto que requerimos es el de **satisfactibilidad**. Una sentencia es satisfactoria si es verdadera para _algún_ modelo. Por ejemplo, en la base de conocimiento ya mostrada, $$R_1 \wedge R_2 \wedge R_3 \wedge R_4 \wedge R_5 $$ es _satisfacible_ por que hay tres modelos en los que es verdadera. Si una sentencia $$\alpha$$ es verdadera en un modelo _m_ , entonces decimos que _m_ **satisface** $$\alpha$$, o que _m_ **es un modelo de** $$\alpha$$. 
 
 Las _satisfactibilidad_ se puede averiguar enumerando los modelos posibles hasta que uno satisface la sentencia. La determinación de la _satisfactibilidad_ de sentencias en lógica proposicional fue el primer problema que se demostró que era NP-completo.
+
 | $$\alpha \wedge \beta$$| $$\equiv$$ |$$\beta \wedge \alpha$$ Conmutatividad de $$\wedge$$ |
 |---------------------------------|---------|---------------------------------------------------------------------------------------------------------|
 | $$\alpha \vee \beta$$                        | $$\equiv$$ | $$\beta \vee \alpha$$ Conmutatividad de $$\vee$$                                                            |
@@ -46,4 +63,5 @@ $$\frac{\alpha \vee \beta}{\alpha}$$
 
 Por ejemplo, de $$(WumpusEnFrente \vee WumpusVivo)$$, se puede inferir $$WumpusVivo$$. Teniendo en cuenta los posibles valores de verdad de $$\alpha$$
 y $$\beta$$ se pueden observar fácilmente, de una sóla vez, que el Modus Ponens y la Eliminación-$$\wedge$$ son reglas sólidas.
+
 
