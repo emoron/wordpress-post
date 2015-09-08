@@ -64,4 +64,16 @@ $$\frac{\alpha \vee \beta}{\alpha}$$
 Por ejemplo, de $$(WumpusEnFrente \vee WumpusVivo)$$, se puede inferir $$WumpusVivo$$. Teniendo en cuenta los posibles valores de verdad de $$\alpha$$
 y $$\beta$$ se pueden observar fácilmente, de una sóla vez, que el Modus Ponens y la Eliminación-$$\wedge$$ son reglas sólidas.
 
+## Un algoritmo de resolución
+
+**función** Resolución-LP(BC,$$\alpha$$) **devuelve** *verdadero* o *falso*   
+ **entradas** BC, la base de conocimiento, una sentencia en lógica proposicional $$\alpha$$, la petición, una sentencia en lógica proposicional.   
+ *cláusulas* $$\leftarrow$$ el conjunto de cláusulas de BC $$\wedge \neg \alpha$$ en representación FNC   
+ *nueva* $$\leftarrow$$ {}   
+ **bucle hacer**
+ **para cada** $$C_i$$,$$C_j$$ **en** cláusulas **hacer**  
+ *resolventes* $$\leftarrow$$ contiene la cláusula vacía **entonces devolver** *verdadero*   
+ *nueva* $$\leftarrow$$ *nueva*  $$\cup$$ *resolventes*   
+ **si** *nueva* $$\subseteq$$ *cláusulas* **entonces devolver** *falso*  
+ *cláusulas* $$\leftarrow$$ *cláusulas* $$\cup$$ *nueva*
 
