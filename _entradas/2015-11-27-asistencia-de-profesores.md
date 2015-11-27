@@ -1,6 +1,6 @@
 ---
 ID: 141
-post_title: Asistencia de profesores
+post_title: 'Asistencia de profesores &#8211; Diplomado'
 author: admin
 post_date: 2015-11-27 09:13:10
 post_excerpt: ""
