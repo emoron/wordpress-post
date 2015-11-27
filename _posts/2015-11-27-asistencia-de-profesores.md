@@ -9,6 +9,6 @@ permalink: >
   http://188.166.92.76/asistencia-de-profesores/
 published: true
 ---
-Les comparto la asistencia de nuestros profesores.
+A continuación la asistencia de nuestros profesores.
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~emoron/96.embed"></iframe>
+<iframe src="https://plot.ly/~emoron/96.embed" width="900" height="800" frameborder="0" scrolling="no"></iframe>
