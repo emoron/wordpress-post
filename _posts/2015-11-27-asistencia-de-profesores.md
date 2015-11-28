@@ -9,7 +9,7 @@ permalink: >
   http://188.166.92.76/lce2015/asistencia-de-profesores/
 published: true
 ---
-https://goo.gl/photos/Ru6LrWEEb12GPs4H8
+&nbsp;
 
 A continuación la asistencia de nuestros profesores.
 
