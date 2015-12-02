@@ -9,4 +9,4 @@ permalink: >
   http://188.166.92.76/becas/austin-texas-colaboracion-en-proyectos/
 published: true
 ---
-http://mex-eua.sre.gob.mx/images/stories/PDF/ConvocatoriaCatedrasMatiasRomero2016Mexico.pdf
+<a href="http://mex-eua.sre.gob.mx/images/stories/PDF/ConvocatoriaCatedrasMatiasRomero2016Mexico.pdf">http://mex-eua.sre.gob.mx/images/stories/PDF/ConvocatoriaCatedrasMatiasRomero2016Mexico.pdf</a>
