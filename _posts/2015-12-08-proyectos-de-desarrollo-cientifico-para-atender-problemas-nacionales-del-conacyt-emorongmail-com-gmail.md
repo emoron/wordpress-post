@@ -1,6 +1,8 @@
 ---
 ID: 208
-post_title: 'PROYECTOS DE DESARROLLO CIENTÍFICO PARA ATENDER PROBLEMAS NACIONALES del CONACYT &#8211; emoron@gmail.com &#8211; Gmail'
+post_title: >
+  PROYECTOS DE DESARROLLO CIENTÍFICO PARA
+  ATENDER PROBLEMAS NACIONALES del CONACYT
 author: admin
 post_date: 2015-12-08 10:20:20
 post_excerpt: ""
@@ -45,19 +47,16 @@ Fecha de publicación de resultados de las pre-propuestas: a partir del 29 de fe
 Fecha límite de recepción de propuestas completas: 11 de abril de 2016, a las 17:00 hs, Tiempo del Centro.
 Publicación de resultados: a partir del 31 de mayo de 2016.
 
-
 Consideramos que los investigadores nicolaitas tienen diversas iniciativas de investigación vinculadas con el sector productivo, que tienen potencial para ser apoyadas en el marco de esta convocatoria.
 Encontrarán información más detallada en la siguiente liga:
 
 http://www.conacyt.mx/index.php/el-conacyt/convocatorias-y-resultados-conacyt/convocatorias-desarrollo-cientifico-1/convocatoria-de-proyectos-de-desarrollo-cientifico-para-atender-problemas-nacionales-2015
-
 
 Y podrán contar con asesoría apoyo institucional en la Coordinación de Investigación Científica de la Universidad Michoacana.
 
 Sin otro particular, reciban un cordial saludo.
 
 Atentamente
-
 
 DR. RAUL CÁRDENAS NAVARRO
 COORDINADOR DE LA INVESTIGACIÓN CIENTÍFICA
