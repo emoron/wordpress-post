@@ -1,8 +1,8 @@
 ---
 ID: 208
 post_title: >
-  PROYECTOS DE DESARROLLO CIENTÍFICO PARA
-  ATENDER PROBLEMAS NACIONALES del CONACYT
+  Proyectos De Desarrollo Científico Para
+  Atender Problemas Nacionales Del Conacyt
 author: admin
 post_date: 2015-12-08 10:20:20
 post_excerpt: ""
